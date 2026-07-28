@@ -6,6 +6,8 @@
 
 The exploration began with Anthropic's paper on **Verbalizable Representations Form a Global Workspace in Language Models**, introducing the Jacobian Lens (J-Lens) and the discovery of a privileged "J-space"—a low-dimensional workspace containing verbalizable concepts that are causally involved in flexible reasoning.
 
+(https://transformer-circuits.pub/2026/workspace/index.html)
+
 Initial discussions naturally revolved around:
 
 * Internal semantic workspaces
