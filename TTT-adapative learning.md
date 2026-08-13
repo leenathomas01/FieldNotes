@@ -8,13 +8,13 @@ What actually determines when an adaptation should persist, and what happens whe
 
 Current hypothesis space:
 
-Don't assume SSI literally uses weight deltas.
-Adaptation might be better understood as a trajectory/path through model or state space.
-If those trajectories are trackable, then stable states/regions can become anchors.
-Correction may therefore be rollback/rebase → alternate path, rather than explicit “unlearning.”
-Ordinary bad adaptations might simply persist as “ghosts” until relevant contradictory/reference information arrives.
-Rather than building heavy machinery preemptively, measure frequency × severity of catastrophic persistence.
-For multi-agent systems, shared stable anchors could allow agents to diverge and explore independently, with re-anchoring when trajectories become problematic.
+- Don't assume SSI literally uses weight deltas.
+- Adaptation might be better understood as a trajectory/path through model or state space.
+- If those trajectories are trackable, then stable states/regions can become anchors.
+- Correction may therefore be rollback/rebase → alternate path, rather than explicit “unlearning.”
+- Ordinary bad adaptations might simply persist as “ghosts” until relevant contradictory/reference information arrives.
+- Rather than building heavy machinery preemptively, measure frequency × severity of catastrophic persistence.
+- For multi-agent systems, shared stable anchors could allow agents to diverge and explore independently, with re-anchoring when trajectories become problematic.
 
 Core phrase to recover later:
 
